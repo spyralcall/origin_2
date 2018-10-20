@@ -171,33 +171,42 @@ int main(int argc, char **argv){
    
     if (t%5000==0){
       /*学習データにおいてどれが間違っていてどれが正解かを出力する*/
-      for(p=0;p<Ntrain;p++){       
+      /*for(p=0;p<Ntrain;p++){       
 	z=z_cal(v,theta_h,w,theta,xtrain[p],y,Nh,p_Dim);
 	printf("train_t_%d  p %d z %f yout %d ytrain %d error_train %d\n",
 		       t , p, z, z>=last_theta ? 1 : 0, (int) ytrain[p],
 		       ((z>=last_theta && ytrain[p]==1.0) ||(z<last_theta && ytrain[p]==0.0)) ? 0 : 1);
-      }
+		       }*/
+      
       /*学習データにおける正答率とconfusion_matrixの計算*/
       cor_train = cor_rate_and_confusion_cal(v,theta_h,w,theta,xtrain,ytrain,y,Nh,p_Dim,Ntrain,last_theta,confusion);
       printf("train_correct_late_t_%d\t%f\n",t,cor_train);/*正答率の出力*/
       
-      /*printf("%f	%f\n",confusion[0],confusion[1]);*/ /*confusion_matrixの出力*/
-      /*printf("%f	%f\n",confusion[2],confusion[3]);*/
+      /*学習データにおけるTP,FN,TN,FPの出力*/
+      printf("train_TP_t_%d\t%f\n", t, confusion[0]);
+      printf("train_FN_t_%d\t%f\n", t, confusion[1]);
+      printf("train_FP_t_%d\t%f\n", t, confusion[2]);
+      printf("train_TN_t_%d\t%f\n", t, confusion[3]);
 
       
       /*テストデータにおいてどれが間違っていてどれが正解かを出力する*/
-      for(p=0;p<Ntest;p++){
+      /*for(p=0;p<Ntest;p++){
 	z=z_cal(v,theta_h,w,theta,xtest[p],y,Nh,p_Dim);
 	printf("test_t_%d  p %d z %f yout %d ytest %d error %d\n",
 	t , p , z , z>=last_theta ? 1 : 0, (int) ytest[p],
 		       ((z>=last_theta && ytest[p]==1.0) || (z<last_theta && ytest[p]==0.0)) ? 0 : 1);
-      }
+		       }*/
+      
       /*テストデータにおける正答率とconfusion_matrixの計算*/
       cor_test = cor_rate_and_confusion_cal(v,theta_h,w,theta,xtest,ytest,y,Nh,p_Dim,Ntest,last_theta,confusion);
       printf("test_correct_late_t_%d\t%f\n",t,cor_test);  /*正答率の出力*/
       
-      /*printf("%f	%f\n",confusion[0],confusion[1]);*/ /*confusion_matrixの出力*/      
-      /*printf("%f	%f\n",confusion[2],confusion[3]);*/
+      /*テストデータにおけるTP,FN,TN,FPの出力*/
+      printf("test_TP_t_%d\t%f\n", t, confusion[0]);
+      printf("test_FN_t_%d\t%f\n", t, confusion[1]);
+      printf("test_FP_t_%d\t%f\n", t, confusion[2]);
+      printf("test_TN_t_%d\t%f\n", t, confusion[3]);
+      
 	
     }
   }

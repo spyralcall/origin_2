@@ -1,6 +1,6 @@
-for t in 20000 30000 40000 50000 60000 70000 80000 90000 100000;do
+for t in 10000 20000;do
     echo "t ${t}"
-    for s in result_v_4_d_4*;do
+    for s in result_v_2_d_*;do
 	cd $s;
 	echo -n "$s  "
 	for f in p_*.txt;do
@@ -13,9 +13,9 @@ done
 
 
 
-for t in 20000 30000 40000 50000 60000 70000 80000 90000 100000;do
+for t in 10000 20000;do
     echo "t ${t}"
-    for s in result_v_4_d_4*;do
+    for s in result_v_2_d_*;do
 	cd $s;
 	echo -n "$s  "
 	for f in p_*.txt;do
