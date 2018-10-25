@@ -187,6 +187,7 @@ int main(int argc, char **argv){
       printf("train_FN_t_%d\t%f\n", t, confusion[1]);
       printf("train_FP_t_%d\t%f\n", t, confusion[2]);
       printf("train_TN_t_%d\t%f\n", t, confusion[3]);
+      printf("\n");
 
       
       /*テストデータにおいてどれが間違っていてどれが正解かを出力する*/
@@ -206,7 +207,7 @@ int main(int argc, char **argv){
       printf("test_FN_t_%d\t%f\n", t, confusion[1]);
       printf("test_FP_t_%d\t%f\n", t, confusion[2]);
       printf("test_TN_t_%d\t%f\n", t, confusion[3]);
-      
+      printf("\n");
 	
     }
   }
