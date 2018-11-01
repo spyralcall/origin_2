@@ -510,3 +510,16 @@ test_precision:0.3350+/-0.0237
 train_precision:0.5025+/-0.0252
 test_recall:0.5346+/-0.0424
 train_recall:0.7866+/-0.0152
+
+f1_test_best~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:100.0      gamma:0.0001
+fit_time:3.0754+/-0.1900
+score_time:0.6088+/-0.0210
+test_f1:0.4995+/-0.0171
+train_f1:0.4989+/-0.0024
+test_accuracy:0.8138+/-0.0095
+train_accuracy:0.8132+/-0.0022
+test_precision:0.4087+/-0.0174
+train_precision:0.4071+/-0.0035
+test_recall:0.6440+/-0.0371
+train_recall:0.6445+/-0.0061
