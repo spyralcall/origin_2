@@ -32,28 +32,6 @@ recall_test: 0.6984 +- 0.0480
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:0.1      gamma:0.1
 accuracy_train: 0.9160 +- 0.0055
 f1_train: 0.9097 +- 0.0040
@@ -64,28 +42,6 @@ f1_test: 0.4932 +- 0.0223
 precision_test: 0.4018 +- 0.0191
 recall_test: 0.6398 +- 0.0393
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:0.1      gamma:0.01
@@ -100,28 +56,6 @@ recall_test: 0.6243 +- 0.0348
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:0.1      gamma:0.001
 accuracy_train: 0.8802 +- 0.0123
 f1_train: 0.8724 +- 0.0081
@@ -134,28 +68,6 @@ recall_test: 0.6780 +- 0.0788
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:0.1      gamma:0.0001
 accuracy_train: 0.8380 +- 0.0127
 f1_train: 0.8304 +- 0.0128
@@ -166,93 +78,6 @@ f1_test: 0.4426 +- 0.0311
 precision_test: 0.3251 +- 0.0420
 recall_test: 0.7119 +- 0.0644
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
-/home/iwanaga/.pyenv/versions/anaconda3-5.1.0/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
-  'precision', 'predicted', average, warn_for)
 
 
 
@@ -268,28 +93,6 @@ recall_test: 0.1000 +- 0.3000
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:1.0      gamma:1.0
 accuracy_train: 0.9539 +- 0.0039
 f1_train: 0.9509 +- 0.0034
@@ -300,28 +103,6 @@ f1_test: 0.4606 +- 0.0316
 precision_test: 0.3545 +- 0.0391
 recall_test: 0.6659 +- 0.0439
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:1.0      gamma:0.1
@@ -336,28 +117,6 @@ recall_test: 0.6461 +- 0.0483
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:1.0      gamma:0.01
 accuracy_train: 0.9127 +- 0.0065
 f1_train: 0.9065 +- 0.0058
@@ -368,28 +127,6 @@ f1_test: 0.4960 +- 0.0217
 precision_test: 0.4028 +- 0.0199
 recall_test: 0.6469 +- 0.0379
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:1.0      gamma:0.001
@@ -404,28 +141,6 @@ recall_test: 0.6264 +- 0.0307
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:1.0      gamma:0.0001
 accuracy_train: 0.8797 +- 0.0116
 f1_train: 0.8716 +- 0.0074
@@ -436,28 +151,6 @@ f1_test: 0.4639 +- 0.0341
 precision_test: 0.3609 +- 0.0557
 recall_test: 0.6745 +- 0.0761
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:1.0      gamma:1e-05
@@ -472,28 +165,6 @@ recall_test: 0.7119 +- 0.0644
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:10.0      gamma:1.0
 accuracy_train: 0.9775 +- 0.0029
 f1_train: 0.9760 +- 0.0028
@@ -504,28 +175,6 @@ f1_test: 0.4410 +- 0.0286
 precision_test: 0.3448 +- 0.0392
 recall_test: 0.6250 +- 0.0576
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:10.0      gamma:0.1
@@ -540,29 +189,6 @@ recall_test: 0.6426 +- 0.0392
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:10.0      gamma:0.01
 accuracy_train: 0.9177 +- 0.0052
 f1_train: 0.9114 +- 0.0033
@@ -574,27 +200,6 @@ precision_test: 0.4096 +- 0.0188
 recall_test: 0.6434 +- 0.0383
 list_shape: 10
 
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:10.0      gamma:0.001
@@ -609,28 +214,6 @@ recall_test: 0.6497 +- 0.0306
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:10.0      gamma:0.0001
 accuracy_train: 0.9001 +- 0.0064
 f1_train: 0.8924 +- 0.0058
@@ -641,28 +224,6 @@ f1_test: 0.4860 +- 0.0205
 precision_test: 0.3978 +- 0.0236
 recall_test: 0.6264 +- 0.0292
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:10.0      gamma:1e-05
@@ -677,28 +238,6 @@ recall_test: 0.6745 +- 0.0761
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:100.0      gamma:1.0
 accuracy_train: 0.9903 +- 0.0011
 f1_train: 0.9896 +- 0.0012
@@ -709,28 +248,6 @@ f1_test: 0.4309 +- 0.0378
 precision_test: 0.3391 +- 0.0441
 recall_test: 0.6080 +- 0.0792
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:100.0      gamma:0.1
@@ -745,28 +262,6 @@ recall_test: 0.6299 +- 0.0556
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:100.0      gamma:0.01
 accuracy_train: 0.9201 +- 0.0046
 f1_train: 0.9142 +- 0.0030
@@ -777,28 +272,6 @@ f1_test: 0.5009 +- 0.0218
 precision_test: 0.4096 +- 0.0168
 recall_test: 0.6468 +- 0.0471
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:100.0      gamma:0.001
@@ -813,28 +286,6 @@ recall_test: 0.6525 +- 0.0355
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:100.0      gamma:0.0001
 accuracy_train: 0.9083 +- 0.0054
 f1_train: 0.9024 +- 0.0050
@@ -845,29 +296,6 @@ f1_test: 0.4872 +- 0.0187
 precision_test: 0.3905 +- 0.0183
 recall_test: 0.6490 +- 0.0307
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:100.0      gamma:1e-05
@@ -882,28 +310,6 @@ recall_test: 0.6264 +- 0.0300
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:1000.0      gamma:1.0
 accuracy_train: 0.9966 +- 0.0008
 f1_train: 0.9964 +- 0.0008
@@ -914,28 +320,6 @@ f1_test: 0.4125 +- 0.0270
 precision_test: 0.3217 +- 0.0349
 recall_test: 0.5897 +- 0.0708
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:1000.0      gamma:0.1
@@ -950,28 +334,6 @@ recall_test: 0.6116 +- 0.0662
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:1000.0      gamma:0.01
 accuracy_train: 0.9248 +- 0.0047
 f1_train: 0.9193 +- 0.0040
@@ -982,28 +344,6 @@ f1_test: 0.4978 +- 0.0198
 precision_test: 0.4078 +- 0.0137
 recall_test: 0.6412 +- 0.0472
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:1000.0      gamma:0.001
@@ -1018,28 +358,6 @@ recall_test: 0.6483 +- 0.0423
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:1000.0      gamma:0.0001
 accuracy_train: 0.9071 +- 0.0058
 f1_train: 0.9013 +- 0.0042
@@ -1050,28 +368,6 @@ f1_test: 0.4870 +- 0.0195
 precision_test: 0.3881 +- 0.0170
 recall_test: 0.6546 +- 0.0340
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:1000.0      gamma:1e-05
@@ -1086,28 +382,6 @@ recall_test: 0.6461 +- 0.0312
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:10000.0      gamma:1.0
 accuracy_train: 0.9983 +- 0.0006
 f1_train: 0.9982 +- 0.0007
@@ -1118,28 +392,6 @@ f1_test: 0.4065 +- 0.0378
 precision_test: 0.3256 +- 0.0431
 recall_test: 0.5544 +- 0.0722
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:10000.0      gamma:0.1
@@ -1154,29 +406,6 @@ recall_test: 0.5996 +- 0.0696
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:10000.0      gamma:0.01
 accuracy_train: 0.9327 +- 0.0043
 f1_train: 0.9276 +- 0.0045
@@ -1187,28 +416,6 @@ f1_test: 0.4955 +- 0.0224
 precision_test: 0.4120 +- 0.0170
 recall_test: 0.6228 +- 0.0422
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:10000.0      gamma:0.001
@@ -1223,28 +430,6 @@ recall_test: 0.6462 +- 0.0426
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:10000.0      gamma:0.0001
 accuracy_train: 0.9093 +- 0.0063
 f1_train: 0.9033 +- 0.0049
@@ -1255,28 +440,6 @@ f1_test: 0.4903 +- 0.0185
 precision_test: 0.3924 +- 0.0154
 recall_test: 0.6546 +- 0.0364
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:10000.0      gamma:1e-05
@@ -1291,28 +454,6 @@ recall_test: 0.6525 +- 0.0315
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:100000.0      gamma:1.0
 accuracy_train: 0.9986 +- 0.0006
 f1_train: 0.9985 +- 0.0007
@@ -1323,28 +464,6 @@ f1_test: 0.3874 +- 0.0268
 precision_test: 0.3221 +- 0.0360
 recall_test: 0.4965 +- 0.0574
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:100000.0      gamma:0.1
@@ -1359,28 +478,6 @@ recall_test: 0.5734 +- 0.0544
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:100000.0      gamma:0.01
 accuracy_train: 0.9417 +- 0.0034
 f1_train: 0.9373 +- 0.0032
@@ -1391,28 +488,6 @@ f1_test: 0.4898 +- 0.0240
 precision_test: 0.4065 +- 0.0216
 recall_test: 0.6186 +- 0.0454
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:100000.0      gamma:0.001
@@ -1427,28 +502,6 @@ recall_test: 0.6433 +- 0.0394
 list_shape: 10
 
 
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
-
-
 C:100000.0      gamma:0.0001
 accuracy_train: 0.9155 +- 0.0053
 f1_train: 0.9093 +- 0.0050
@@ -1459,29 +512,6 @@ f1_test: 0.4968 +- 0.0203
 precision_test: 0.4026 +- 0.0193
 recall_test: 0.6504 +- 0.0381
 list_shape: 10
-
-
-smoteenn_train_X(label=1): 4559
-smoteenn_train_X(label=0): 5005
-
-smoteenn_train_X(label=1): 4502
-smoteenn_train_X(label=0): 5107
-smoteenn_train_X(label=1): 4512
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4606
-smoteenn_train_X(label=0): 4798
-smoteenn_train_X(label=1): 4598
-smoteenn_train_X(label=0): 5321
-smoteenn_train_X(label=1): 4576
-smoteenn_train_X(label=0): 5720
-smoteenn_train_X(label=1): 4549
-smoteenn_train_X(label=0): 5228
-smoteenn_train_X(label=1): 4592
-smoteenn_train_X(label=0): 4440
-smoteenn_train_X(label=1): 4608
-smoteenn_train_X(label=0): 5297
-smoteenn_train_X(label=1): 4561
-smoteenn_train_X(label=0): 5415
 
 
 C:100000.0      gamma:1e-05
